@@ -1,0 +1,29 @@
+﻿<Window x:Class="eldrdrwpf.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eldrdrwpf"
+        mc:Ignorable="d"
+        ResizeMode="CanResize"
+        Title="MainWindow" Height="790" Width="1085" FontFamily="Inter">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\Image\360_F_174018238_KlwGv4mR0kyHqhgrByN20Du9AsE8RIFb 1.png" TileMode="Tile" Stretch="UniformToFill" Opacity="0.45"/>
+        </Grid.Background>
+        <TextBlock Height="51" Width="460" Margin="312,15,313,708" FontSize="42" FontWeight="ExtraBold" Foreground="White" Text="Мойка автомобилей"/>
+        <TextBlock Height="51" Margin="40,66,40,0" Foreground="White" FontSize="38" FontWeight="ExtraBold" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Text="Добавление Автомобиля" SnapsToDevicePixels="True" HorizontalAlignment="Center"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" Height="8" Margin="0,122,0,0" VerticalAlignment="Top" Width="1080" Background="White"/>
+        <TextBlock Width="362" Margin="80,140,0,506" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left"><Run Language="ru-ru" Text="Введите гос. номер автомобиля"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="80,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Height="60" BorderBrush="White" FontSize="36"/>
+        <TextBlock Width="334" Margin="654,421,0,225" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left" RenderTransformOrigin="0.418,0.468"><Run Language="ru-ru" Text="Введите имя клиента"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="671,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Height="60" BorderBrush="White" FontSize="36"/>
+        <TextBlock Width="349" Margin="671,140,0,533" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left"><Run Language="ru-ru" Text="Введите фамилию клиента"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="671,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Height="60" BorderBrush="White" FontSize="36"/>
+        <TextBlock Width="362" Margin="36,426,0,220" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Left"><Run Language="ru-ru" Text="Введите адрес почты клиента"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="80,512,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Height="60" BorderBrush="White" FontSize="36"/>
+        <RadioButton Content="Да" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="454,652,0,0" VerticalAlignment="Top" FontSize="36" Foreground="White" FontWeight="ExtraBold" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Нет" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="542,652,0,0" VerticalAlignment="Top" FontSize="36" Foreground="White" FontWeight="ExtraBold"/>
+        <TextBlock Height="51" Margin="0,596,0,0" Foreground="White" FontSize="38" FontWeight="ExtraBold" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" SnapsToDevicePixels="True" HorizontalAlignment="Center"><Run Language="ru-ru" Text="Добавить автомобиль"/><Run Text="?"/></TextBlock>
+    </Grid>
+</Window>
