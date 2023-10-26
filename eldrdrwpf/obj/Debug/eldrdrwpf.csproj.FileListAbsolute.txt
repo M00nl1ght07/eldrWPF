@@ -16,3 +16,13 @@ C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\eldrdrwpf.exe
 C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\eldrdrwpf.pdb
 C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Window1.g.cs
 C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Window1.baml
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\DeleteCar.g.cs
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\DeleteCar.baml
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Tarif.g.cs
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Tarif.baml
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Pokazat.g.cs
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\Pokazat.baml
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\AddProcedure.g.cs
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\AddProcedure.baml
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\DeleteProcedure.g.cs
+C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\obj\Debug\DeleteProcedure.baml

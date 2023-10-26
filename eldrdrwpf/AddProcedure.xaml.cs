@@ -15,22 +15,37 @@ using System.Windows.Shapes;
 namespace eldrdrwpf
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для AddProcedure.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class AddProcedure : Window
     {
-        public Window1()
+        public AddProcedure()
         {
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             mainWindow.Top = this.Top;
             mainWindow.Left = this.Left;
             this.Close();
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RadioButton_Checked_2(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

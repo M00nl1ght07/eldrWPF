@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:eldrdrwpf"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="MainWindow" Height="740" Width="1085" FontFamily="Inter">
+        Title="MainWindow" d:Height ="720" d:Width="1080" Height="740" Width="1085" FontFamily="Inter">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\Image\360_F_174018238_KlwGv4mR0kyHqhgrByN20Du9AsE8RIFb 1.png" TileMode="Tile" Stretch="UniformToFill" Opacity="0.5"/>

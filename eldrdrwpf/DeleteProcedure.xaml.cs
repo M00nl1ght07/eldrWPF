@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 namespace eldrdrwpf
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для DeleteProcedure.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class DeleteProcedure : Window
     {
-        public Window1()
+        public DeleteProcedure()
         {
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();

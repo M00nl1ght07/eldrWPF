@@ -1,0 +1,22 @@
+﻿<Window x:Class="eldrdrwpf.Pokazat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eldrdrwpf"
+        mc:Ignorable="d"
+        Title="Pokazat" d:Height="720" d:Width ="1080" Height="740" Width="1085">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Home\source\repos\eldrdrwpf\eldrdrwpf\Image\360_F_174018238_KlwGv4mR0kyHqhgrByN20Du9AsE8RIFb 1.png" TileMode="Tile" Stretch="UniformToFill" Opacity="0.4"/>
+        </Grid.Background>
+        <TextBlock Height="51" Width="460" Margin="310,15,310,638" FontSize="42" FontWeight="ExtraBold" Foreground="White" Text="Мойка автомобилей"/>
+        <TextBlock Height="51" Margin="40,66,40,0" Foreground="White" FontSize="38" FontWeight="ExtraBold" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top"><Run Text="Показать список автомобилей"/></TextBlock>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" Height="8" Margin="0,122,0,0" VerticalAlignment="Top" Width="1080" Background="White"/>
+        <TextBlock Width="612" Margin="0,135,0,473" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"><Run Language="ru-ru" Text="Гос. номер автомобиля: Р777РМ97"/></TextBlock>
+        <TextBlock Width="356" Margin="0,236,0,372" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"><Run Language="ru-ru" Text="Клиент: Мустафа Передозов"/></TextBlock>
+        <TextBlock Width="356" Margin="0,352,0,256" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"><Run Text="E - mail"/><Run Language="ru-ru" Text=": "/><Run Text="peredoz@mail.ru"/></TextBlock>
+        <TextBlock Width="356" Margin="0,473,0,135" FontSize="36" FontWeight="ExtraBold" Foreground="#FF989898" TextAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center"><Run Text="Тариф: "/><Run Language="ru-ru" Text="Эконом - 500 рублей"/></TextBlock>
+        <Button Content="Вернуться" Height="84px" Width="500" HorizontalAlignment="Center" Margin="0,586,0,0" VerticalAlignment="Top" Background="#FF62AEB9" Click="Button_Click" FontSize="24" Foreground="White"/>
+    </Grid>
+</Window>

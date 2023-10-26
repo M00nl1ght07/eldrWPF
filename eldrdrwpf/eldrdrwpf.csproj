@@ -55,9 +55,36 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddProcedure.xaml.cs">
+      <DependentUpon>AddProcedure.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCar.xaml.cs">
+      <DependentUpon>DeleteCar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProcedure.xaml.cs">
+      <DependentUpon>DeleteProcedure.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pokazat.xaml.cs">
+      <DependentUpon>Pokazat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tarif.xaml.cs">
+      <DependentUpon>Tarif.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddProcedure.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteCar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteProcedure.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,6 +97,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pokazat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tarif.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
